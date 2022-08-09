@@ -1,0 +1,39 @@
+.header {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+
+.ul a {
+  color: #333;
+  margin-left: 0.5rem;
+  font-weight: bold;
+  transition: 0.3s;
+  border: 1px solid #ccc;
+  border-radius: 15%;
+  padding: 0.7rem;
+}
+
+.ul a:hover {
+  border-radius: 10%;
+  background-color: #fb1;
+  color: #764701;
+  padding: 0.7rem;
+  transition: 0.4s;
+}
+
+.ul {
+}
+
+.logo img {
+  width: 40px;
+}
